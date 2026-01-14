@@ -1,0 +1,247 @@
+{
+    "home": {
+        "welcome": "Benvenuto ",
+        "search_text": "Cosa stai cercando?",
+        "recently_posted": "Pubblicati di recente",
+        "top_rated": "Più valutati"
+    },
+    "language_dialog": {
+        "title": "Cambia lingua",
+        "cancel_button": "Annulla",
+        "translate_button": "Traduci"
+    },
+    "search": {
+        "title": "Cerca",
+        "input_text": "Cosa stai cercando?",
+        "no_classes": "Nessuna risorsa trovata...",
+        "search_error": "Qualcosa è andato storto, riprova più tardi...",
+        "initial_message": "Stai cercando qualcosa?"
+    },
+    "register_class": {
+        "title": "Registra risorsa",
+        "information_step": "Informazioni",
+        "category_step": "Categoria",
+        "confirmation_step": "Conferma",
+        "button_next_step": "Passaggio successivo",
+        "button_submmit": "Registra risorsa",
+        "step1": {
+            "video_label": "Seleziona video dalla galleria",
+            "thumb_label": "Seleziona immagine di anteprima",
+            "title_label": "Titolo della risorsa",
+            "description_label": "Descrizione",
+            "validation": {
+                "select_video": "Seleziona un video",
+                "select_image": "Seleziona un'immagine di anteprima",
+                "provide_title": "Inserisci il titolo",
+                "provide_description": "Inserisci la descrizione"
+            }
+        },
+        "step2": {
+            "subjects": {
+                "title": "Corsi",
+                "dialog_title": "A quali corsi è collegata la tua lezione?"
+            },
+            "skills": {
+                "title": "Competenze",
+                "dialog_title": "A quali competenze è collegata la tua lezione?"
+            },
+            "tool": {
+                "title": "Strumento",
+                "dialog_title": "Quale strumento stai utilizzando nella tua lezione?"
+            },
+            "validation": {
+                "select_subjects": "Seleziona i corsi",
+                "select_skills": "Seleziona le competenze.",
+                "select_tool": "Seleziona lo strumento"
+            }
+        },
+        "step3": {
+            "error_title": "Titolo",
+            "skills": "Competenze",
+            "subjects": "Corsi",
+            "tool": "Strumenti"
+        },
+        "message": {
+            "success": "Congratulazioni, la tua risorsa è stata inviata. Non appena sarà approvata dagli amministratori, sarà disponibile per tutti gli studenti",
+            "loading": "Registrazione della risorsa in corso, attendi un momento",
+            "error": "Si è verificato un errore"
+        }
+    },
+    "profile": {
+        "title": "Profilo",
+        "about_me": "Su di me",
+        "no_description": "Nessuna descrizione",
+        "my_classes": "Le mie risorse",
+        "no_classes": "Non hai ancora pubblicato nessuna risorsa",
+        "favorite": "Preferiti",
+        "no_favorites": "Non hai nessuna risorsa nella tua lista :("
+    },
+    "edit_account": {
+        "title": "Modifica profilo",
+        "new_image": "NUOVA IMMAGINE",
+        "button_cancel": "ANNULLA",
+        "username_label": "Nome utente",
+        "username_hint": "Nuovo nome utente",
+        "description_label": "Descrizione",
+        "description_hint": "Inserisci qui la tua nuova descrizione",
+        "button_edit": "MODIFICA"
+    },
+    "config_screen": {
+        "title": "Impostazioni",
+        "language": "Lingua",
+        "logout": "Esci dall'account"
+    },
+    "author_profile": {
+        "title": "Autore",
+        "about_me": "Su di me",
+        "classes": "Risorse"
+    },
+    "class_page": {
+        "skills": "Competenze",
+        "subjects": "Corsi",
+        "message": {
+            "add_to_favorites": "Aggiunto ai preferiti!",
+            "removed_from_favorites": "Rimosso dai preferiti"
+        }
+    },
+    "author_dialog": {
+        "wanna_know_more": "Vuoi saperne di più sull'autore?",
+        "button_cancel": "Annulla",
+        "button_visit": "Visita"
+    },
+    "logout_dialog": {
+        "title": "Vuoi davvero uscire?",
+        "subtitle": "Se esci, potrai rientrare solo dopo aver effettuato nuovamente l'accesso",
+        "button_cancel": "Annulla",
+        "button_logout": "Esci"
+    },
+    "onboarding": {
+        "skip": "SALTA",
+        "dont_show": "Non mostrare",
+        "button_advance": "AVANTI",
+        "button_continue": "CONTINUA",
+        "step1": {
+            "title": "Sblocca il tuo potenziale con REduc",
+            "description": "Scopri, impara e condividi conoscenza in un unico posto! 🚀"
+        },
+        "step2": {
+            "title": "Potenzia il tuo percorso di apprendimento",
+            "description": "In REduc accedi a contenuti vari, in base ai tuoi interessi!"
+        },
+        "step3": {
+            "title": "Studia a modo tuo",
+            "description": "Qui impari al tuo ritmo e nel modo che preferisci!"
+        },
+        "step4": {
+            "title": "Pubblica le tue lezioni",
+            "description": "Se sei un insegnante, pubblica le tue lezioni con l'app REduc"
+        },
+        "step5": {
+            "title": "Inizia il tuo percorso",
+            "description": "Esplora, impara e cresci con REduc!"
+        }
+    },
+    "signin_signout": {
+        "title": "Accedi ora",
+        "subtitle": "Accedi al tuo account o creane uno ora e inizia a imparare!",
+        "button_signin": "ACCEDI",
+        "button_signup": "REGISTRATI"
+    },
+    "signin_page": {
+        "title": "Accedi",
+        "subtitle": "Accedi per usufruire di tutti i contenuti disponibili su REduc!",
+        "email_label": "Email",
+        "email_hint": "contatto@esempio.com",
+        "password_label": "Password",
+        "password_hint": "***********",
+        "remember_me": "Ricordami!",
+        "button_submmit": "ACCEDI",
+        "signup_text": "Non hai ancora un account?",
+        "button_signup": "Registrati",
+        "validation": {
+            "no_email": "Inserisci la tua email",
+            "invalid_email": "Email non valida",
+            "no_password": "Inserisci la tua password",
+            "invalid_password": "La password deve avere almeno 6 caratteri"
+        },
+        "message": {
+            "loading_auth": "Autenticazione in corso, quasi fatto"
+        }
+    },
+    "signup_page": {
+        "title": "Registrazione",
+        "button_back": "Indietro",
+        "button_submmit": "Concludi",
+        "button_next": "Avanti",
+        "personal_info": {
+            "title": "Personali",
+            "teacher": "Insegnante",
+            "student": "Studente",
+            "username": "Nome utente",
+            "username_hint": "Nome utente",
+            "name": "Nome",
+            "name_hint": "Nome",
+            "surname": "Cognome",
+            "surname_hint": "Cognome",
+            "email": "Email",
+            "email_hint": "esempio@esempio.com",
+            "cpf": "CPF",
+            "cpf_hint": "###########",
+            "birth_date": "Data di nascita",
+            "birth_date_hint": "gg/mm/aaaa",
+            "validation": {
+                "required": "Obbligatorio"
+            }
+        },
+        "institutional_info": {
+            "title": "Istituzionali",
+            "institution": "Istituzione",
+            "no_institution": "Nessuna istituzione trovata",
+            "select_institution": "Seleziona l'istituzione",
+            "lattes_link": "Link Lattes",
+            "lattes_link_hint": "Link Lattes",
+            "expertise_area": "Area di competenza",
+            "expertise_area_hint": "Area di competenza",
+            "description": "Descrizione",
+            "description_hint": "Descrizione",
+            "validation": {
+                "required": "Obbligatorio"
+            }
+        },
+        "security_info": {
+            "title": "Sicurezza",
+            "password": "Password",
+            "password_hint": "Password",
+            "obscure_password_hint": "*****",
+            "password_confimation": "Conferma password",
+            "password_confimation_hint": "Conferma password",
+            "obscure_password_confimation_hint": "*********** ** *****",
+            "security_question": "Domanda di sicurezza",
+            "no_questions": "Nessuna domanda disponibile",
+            "select_question": "Seleziona la domanda",
+            "security_response": "Risposta di sicurezza",
+            "security_response_hint": "Risposta di sicurezza",
+            "validation": {
+                "password_validation": "Minimo 6 caratteri",
+                "password_dosnt_match": "Le password non coincidono",
+                "required": "Obbligatorio"
+            },
+            "error": {
+                "state_error": "Qualcosa è andato storto, riprova più tardi"
+            }
+        },
+        "validation": {
+            "email_validation": "Email non valida",
+            "cpf_validation": "CPF non valido",
+            "invalid_date": "Data non valida"
+        },
+        "message": {
+            "select_institution": "Seleziona l'istituzione",
+            "provide_lattes": "Inserisci il link Lattes",
+            "provide_expertise_area": "Inserisci l'area di competenza",
+            "select_security_question": "Seleziona la domanda di sicurezza",
+            "password_dosnt_match": "Le password non coincidono",
+            "loading_register": "Registrazione utente in corso, attendi un momento"
+        }
+    }
+}

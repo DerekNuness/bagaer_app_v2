@@ -1,0 +1,247 @@
+{
+    "home": {
+        "welcome": "Welcome ",
+        "search_text": "What are you looking for?",
+        "recently_posted": "Recently Posted",
+        "top_rated": "Top Rated"
+    },
+    "language_dialog": {
+        "title": "Change Language",
+        "cancel_button": "Cancel",
+        "translate_button": "Translate"
+    },
+    "search": {
+        "title": "Search",
+        "input_text": "What are you looking for?",
+        "no_classes": "No resources found...",
+        "search_error": "Something went wrong, please try again later...",
+        "initial_message": "Looking for something?"
+    },
+    "register_class": {
+        "title": "Register Resource",
+        "information_step": "Information",
+        "category_step": "Category",
+        "confirmation_step": "Confirmation",
+        "button_next_step": "Next Step",
+        "button_submmit": "Register Resource",
+        "step1": {
+            "video_label": "Select Video from Gallery",
+            "thumb_label": "Select Thumbnail Image",
+            "title_label": "Resource Title",
+            "description_label": "Description",
+            "validation": {
+                "select_video": "Select a video",
+                "select_image": "Select a thumbnail image",
+                "provide_title": "Provide a title",
+                "provide_description": "Provide a description"
+            }
+        },
+        "step2": {
+            "subjects": {
+                "title": "Courses",
+                "dialog_title": "Which courses is your class related to?"
+            },
+            "skills": {
+                "title": "Skills",
+                "dialog_title": "Which skills is your class related to?"
+            },
+            "tool": {
+                "title": "Tool",
+                "dialog_title": "Which tool are you using in your class?"
+            },
+            "validation": {
+                "select_subjects": "Select the courses",
+                "select_skills": "Select the skills.",
+                "select_tool": "Select the tool"
+            }
+        },
+        "step3": {
+            "error_title": "Title",
+            "skills": "Skills",
+            "subjects": "Courses",
+            "tool": "Tools"
+        },
+        "message": {
+            "success": "Congratulations, your resource has been submitted. Once approved by the administrators, it will be available to all students",
+            "loading": "Registering resource, just a moment",
+            "error": "Something went wrong"
+        }
+    },
+    "profile": {
+        "title": "Profile",
+        "about_me": "About me",
+        "no_description": "No description",
+        "my_classes": "My Resources",
+        "no_classes": "You haven't posted any resources yet",
+        "favorite": "Favorites",
+        "no_favorites": "You don't have any resources in your list :("
+    },
+    "edit_account": {
+        "title": "Edit Profile",
+        "new_image": "NEW IMAGE",
+        "button_cancel": "CANCEL",
+        "username_label": "Username",
+        "username_hint": "New username",
+        "description_label": "Description",
+        "description_hint": "Enter your new description here",
+        "button_edit": "EDIT"
+    },
+    "config_screen": {
+        "title": "Settings",
+        "language": "Language",
+        "logout": "Log Out"
+    },
+    "author_profile": {
+        "title": "Author",
+        "about_me": "About me",
+        "classes": "Resources"
+    },
+    "class_page": {
+        "skills": "Skills",
+        "subjects": "Courses",
+        "message": {
+            "add_to_favorites": "Added to favorites!",
+            "removed_from_favorites": "Removed from favorites"
+        }
+    },
+    "author_dialog": {
+        "wanna_know_more": "Want to know more about the author?",
+        "button_cancel": "Cancel",
+        "button_visit": "Visit"
+    },
+    "logout_dialog": {
+        "title": "Do you really want to log out?",
+        "subtitle": "If you leave, you will only be able to return after logging in again",
+        "button_cancel": "Cancel",
+        "button_logout": "Log Out"
+    },
+    "onboarding": {
+        "skip": "SKIP",
+        "dont_show": "Do not show",
+        "button_advance": "NEXT",
+        "button_continue": "CONTINUE",
+        "step1": {
+            "title": "Unlock Your Potential with REduc",
+            "description": "Discover, learn, and share knowledge all in one place! 🚀"
+        },
+        "step2": {
+            "title": "Boost your learning journey",
+            "description": "At REduc, you access a variety of content tailored to your preferences!"
+        },
+        "step3": {
+            "title": "Study in your own way",
+            "description": "Here, you learn at your own pace and in the way you prefer!"
+        },
+        "step4": {
+            "title": "Post your classes",
+            "description": "If you are a teacher, post your classes using the REduc app"
+        },
+        "step5": {
+            "title": "Start your journey",
+            "description": "Explore, learn, and grow with REduc!"
+        }
+    },
+    "signin_signout": {
+        "title": "Sign In Now",
+        "subtitle": "Log in to your account or create one now and start learning!",
+        "button_signin": "SIGN IN",
+        "button_signup": "SIGN UP"
+    },
+    "signin_page": {
+        "title": "Sign In",
+        "subtitle": "Log in to enjoy all the content available on REduc!",
+        "email_label": "Email",
+        "email_hint": "contact@example.com",
+        "password_label": "Password",
+        "password_hint": "***********",
+        "remember_me": "Remember me!",
+        "button_submmit": "SIGN IN",
+        "signup_text": "Don't have an account yet?",
+        "button_signup": "Sign up",
+        "validation": {
+            "no_email": "Enter your email",
+            "invalid_email": "Invalid email",
+            "no_password": "Enter your password",
+            "invalid_password": "Password must be at least 6 characters"
+        },
+        "message": {
+            "loading_auth": "Authenticating account, almost there"
+        }
+    },
+    "signup_page": {
+        "title": "Sign Up",
+        "button_back": "Back",
+        "button_submmit": "Finish",
+        "button_next": "Next",
+        "personal_info": {
+            "title": "Personal",
+            "teacher": "Teacher",
+            "student": "Student",
+            "username": "Username",
+            "username_hint": "Username",
+            "name": "First name",
+            "name_hint": "First name",
+            "surname": "Last name",
+            "surname_hint": "Last name",
+            "email": "Email",
+            "email_hint": "example@example.com",
+            "cpf": "CPF",
+            "cpf_hint": "###########",
+            "birth_date": "Birth date",
+            "birth_date_hint": "dd/mm/yyyy",
+            "validation": {
+                "required": "Required"
+            }
+        },
+        "institutional_info": {
+            "title": "Institutional",
+            "institution": "Institution",
+            "no_institution": "No institution found",
+            "select_institution": "Select the institution",
+            "lattes_link": "Lattes Link",
+            "lattes_link_hint": "Lattes Link",
+            "expertise_area": "Area of Expertise",
+            "expertise_area_hint": "Area of Expertise",
+            "description": "Description",
+            "description_hint": "Description",
+            "validation": {
+                "required": "Required"
+            }
+        },
+        "security_info": {
+            "title": "Security",
+            "password": "Password",
+            "password_hint": "Password",
+            "obscure_password_hint": "*****",
+            "password_confimation": "Password confirmation",
+            "password_confimation_hint": "Password confirmation",
+            "obscure_password_confimation_hint": "*********** ** *****",
+            "security_question": "Security question",
+            "no_questions": "No questions available",
+            "select_question": "Select the question",
+            "security_response": "Security answer",
+            "security_response_hint": "Security answer",
+            "validation": {
+                "password_validation": "Minimum 6 characters",
+                "password_dosnt_match": "Passwords do not match",
+                "required": "Required"
+            },
+            "error": {
+                "state_error": "Something went wrong, please try again later"
+            }
+        },
+        "validation": {
+            "email_validation": "Invalid email",
+            "cpf_validation": "Invalid CPF",
+            "invalid_date": "Invalid date"
+        },
+        "message": {
+            "select_institution": "Select the institution",
+            "provide_lattes": "Provide the Lattes link",
+            "provide_expertise_area": "Provide the area of expertise",
+            "select_security_question": "Select the security question",
+            "password_dosnt_match": "Passwords do not match",
+            "loading_register": "Registering user, just a moment"
+        }
+    }
+}

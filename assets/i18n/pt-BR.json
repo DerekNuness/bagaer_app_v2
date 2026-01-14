@@ -1,0 +1,74 @@
+{
+    "auth_decision": {
+        "title": "Bagagem segura. Viagem tranquila",
+        "enter_button": "Entrar",
+        "register_button": "Criar conta"
+    },
+    "login_page": {
+        "title" : "Bem vindo de volta!",
+        "subtitle": "Faça o login para continuar",
+        "phone_label": "Celular:",
+        "password_label": "Senha:",
+        "password_hint": "Digite sua senha",
+        "forgot_passord_label": "Esqueceu sua senha?",
+        "forgot_password_button": "Clique aqui",
+        "call_to_register": "Não possui conta?",
+        "call_to_register_button": "Crie agora",
+        "enter_button": "Entrar",
+        "login_errors": {
+            "invalid_credentials": "Parece que suas credenciais estão incorretas",
+            "user_blocked": "sua conta foi temporariamente bloqueada ou suspensa",
+            "network_failure": "Parece que você não está conectado! Verifique sua conexão com a internet e tente novamente."
+        }
+    },
+    "register_class": {
+        "title": "Cadastrar Recurso",
+        "information_step": "Informações",
+        "category_step": "Categoria",
+        "confirmation_step": "Confirmação",
+        "button_next_step": "Próxima Etapa",
+        "button_submmit": "Cadastrar Recurso",
+        "step1": {
+            "video_label": "Selecionar Vídeo da Galeria",
+            "thumb_label": "Selecionar Imagem de Thumb",
+            "title_label": "Título do Recurso",
+            "description_label": "Descrição",
+            "validation": {
+                "select_video": "Selecione um vídeo",
+                "select_image": "Selecione uma imagem de thumb",
+                "provide_title": "Informe o título",
+                "provide_description": "Informe a descrição"
+            }
+        },
+        "step2": {
+           "subjects": {
+                "title": "Cursos",
+                "dialog_title": "A quais cursos você relaciona a sua aula?"
+           },
+           "skills": {
+                "title": "Habilidades",
+                "dialog_title": "A quais habilidades você relaciona a sua aula?"
+           },
+           "tool": {
+                "title": "Ferramenta",
+                "dialog_title": "Qual ferramenta você esta usando na sua aula?"
+           },
+           "validation": {
+                "select_subjects": "Selecione os cursos",
+                "select_skills": "Selecione as habilidades.",
+                "select_tool": "Selecione a ferramenta"
+            }
+        },
+        "step3": {
+            "error_title": "Titulo",
+            "skills": "Habilidades",
+            "subjects": "Cursos",
+            "tool": "Ferramentas"
+        },
+        "message": {
+            "success": "Parabéns, seu recurso foi enviado. Assim que for aprovado pelos administradores ele aparecerá para todos os alunos",
+            "loading": "Cadastrando recurso, só um minuto",
+            "error": "Algo de errado aconteceu"
+        }
+    }
+}

@@ -1,0 +1,247 @@
+{
+    "home": {
+        "welcome": "ようこそ ",
+        "search_text": "何をお探しですか？",
+        "recently_posted": "最近投稿されたもの",
+        "top_rated": "高評価"
+    },
+    "language_dialog": {
+        "title": "言語を変更",
+        "cancel_button": "キャンセル",
+        "translate_button": "翻訳"
+    },
+    "search": {
+        "title": "検索",
+        "input_text": "何をお探しですか？",
+        "no_classes": "リソースが見つかりませんでした...",
+        "search_error": "問題が発生しました。しばらくしてから再度お試しください...",
+        "initial_message": "何かお探しですか？"
+    },
+    "register_class": {
+        "title": "リソースを登録",
+        "information_step": "情報",
+        "category_step": "カテゴリ",
+        "confirmation_step": "確認",
+        "button_next_step": "次のステップ",
+        "button_submmit": "リソースを登録",
+        "step1": {
+            "video_label": "ギャラリーから動画を選択",
+            "thumb_label": "サムネイル画像を選択",
+            "title_label": "リソースのタイトル",
+            "description_label": "説明",
+            "validation": {
+                "select_video": "動画を選択してください",
+                "select_image": "サムネイル画像を選択してください",
+                "provide_title": "タイトルを入力してください",
+                "provide_description": "説明を入力してください"
+            }
+        },
+        "step2": {
+            "subjects": {
+                "title": "コース",
+                "dialog_title": "この授業はどのコースに関連していますか？"
+            },
+            "skills": {
+                "title": "スキル",
+                "dialog_title": "この授業はどのスキルに関連していますか？"
+            },
+            "tool": {
+                "title": "ツール",
+                "dialog_title": "この授業で使用しているツールは何ですか？"
+            },
+            "validation": {
+                "select_subjects": "コースを選択してください",
+                "select_skills": "スキルを選択してください。",
+                "select_tool": "ツールを選択してください"
+            }
+        },
+        "step3": {
+            "error_title": "タイトル",
+            "skills": "スキル",
+            "subjects": "コース",
+            "tool": "ツール"
+        },
+        "message": {
+            "success": "おめでとうございます。リソースが送信されました。管理者による承認後、すべての学生に公開されます。",
+            "loading": "リソースを登録しています。少々お待ちください。",
+            "error": "エラーが発生しました"
+        }
+    },
+    "profile": {
+        "title": "プロフィール",
+        "about_me": "自己紹介",
+        "no_description": "説明はありません",
+        "my_classes": "自分のリソース",
+        "no_classes": "まだリソースを投稿していません",
+        "favorite": "お気に入り",
+        "no_favorites": "お気に入りに追加されたリソースはありません :("
+    },
+    "edit_account": {
+        "title": "プロフィールを編集",
+        "new_image": "新しい画像",
+        "button_cancel": "キャンセル",
+        "username_label": "ユーザー名",
+        "username_hint": "新しいユーザー名",
+        "description_label": "説明",
+        "description_hint": "新しい説明を入力してください",
+        "button_edit": "編集"
+    },
+    "config_screen": {
+        "title": "設定",
+        "language": "言語",
+        "logout": "ログアウト"
+    },
+    "author_profile": {
+        "title": "著者",
+        "about_me": "自己紹介",
+        "classes": "リソース"
+    },
+    "class_page": {
+        "skills": "スキル",
+        "subjects": "コース",
+        "message": {
+            "add_to_favorites": "お気に入りに追加しました！",
+            "removed_from_favorites": "お気に入りから削除しました"
+        }
+    },
+    "author_dialog": {
+        "wanna_know_more": "著者についてもっと知りたいですか？",
+        "button_cancel": "キャンセル",
+        "button_visit": "訪問"
+    },
+    "logout_dialog": {
+        "title": "本当にログアウトしますか？",
+        "subtitle": "ログアウトすると、再度ログインするまで戻ることはできません",
+        "button_cancel": "キャンセル",
+        "button_logout": "ログアウト"
+    },
+    "onboarding": {
+        "skip": "スキップ",
+        "dont_show": "表示しない",
+        "button_advance": "次へ",
+        "button_continue": "続行",
+        "step1": {
+            "title": "REducであなたの可能性を解き放つ",
+            "description": "一つの場所で、発見・学習・知識の共有を！ 🚀"
+        },
+        "step2": {
+            "title": "学習の旅を加速させよう",
+            "description": "REducでは、あなたの好みに合わせた多様なコンテンツにアクセスできます！"
+        },
+        "step3": {
+            "title": "自分のスタイルで学習",
+            "description": "ここでは、自分のペースで、好きな方法で学べます！"
+        },
+        "step4": {
+            "title": "授業を投稿しよう",
+            "description": "教師の方は、REducアプリから授業を投稿できます"
+        },
+        "step5": {
+            "title": "学習の旅を始めよう",
+            "description": "REducで探求し、学び、成長しましょう！"
+        }
+    },
+    "signin_signout": {
+        "title": "今すぐ始める",
+        "subtitle": "ログインするか、新しくアカウントを作成して学習を始めましょう！",
+        "button_signin": "ログイン",
+        "button_signup": "登録"
+    },
+    "signin_page": {
+        "title": "ログイン",
+        "subtitle": "ログインして、REducのすべてのコンテンツを楽しみましょう！",
+        "email_label": "メールアドレス",
+        "email_hint": "contact@example.com",
+        "password_label": "パスワード",
+        "password_hint": "***********",
+        "remember_me": "ログイン状態を保持する",
+        "button_submmit": "ログイン",
+        "signup_text": "アカウントをお持ちでないですか？",
+        "button_signup": "新規登録",
+        "validation": {
+            "no_email": "メールアドレスを入力してください",
+            "invalid_email": "無効なメールアドレスです",
+            "no_password": "パスワードを入力してください",
+            "invalid_password": "パスワードは6文字以上である必要があります"
+        },
+        "message": {
+            "loading_auth": "アカウントを認証しています。もう少しです"
+        }
+    },
+    "signup_page": {
+        "title": "登録",
+        "button_back": "戻る",
+        "button_submmit": "完了",
+        "button_next": "次へ",
+        "personal_info": {
+            "title": "個人情報",
+            "teacher": "教師",
+            "student": "学生",
+            "username": "ユーザー名",
+            "username_hint": "ユーザー名",
+            "name": "名",
+            "name_hint": "名",
+            "surname": "姓",
+            "surname_hint": "姓",
+            "email": "メールアドレス",
+            "email_hint": "example@example.com",
+            "cpf": "CPF",
+            "cpf_hint": "###########",
+            "birth_date": "生年月日",
+            "birth_date_hint": "dd/mm/yyyy",
+            "validation": {
+                "required": "必須"
+            }
+        },
+        "institutional_info": {
+            "title": "所属情報",
+            "institution": "機関",
+            "no_institution": "機関が見つかりません",
+            "select_institution": "機関を選択してください",
+            "lattes_link": "Lattesリンク",
+            "lattes_link_hint": "Lattesリンク",
+            "expertise_area": "専門分野",
+            "expertise_area_hint": "専門分野",
+            "description": "説明",
+            "description_hint": "説明",
+            "validation": {
+                "required": "必須"
+            }
+        },
+        "security_info": {
+            "title": "セキュリティ",
+            "password": "パスワード",
+            "password_hint": "パスワード",
+            "obscure_password_hint": "*****",
+            "password_confimation": "パスワード確認",
+            "password_confimation_hint": "パスワード確認",
+            "obscure_password_confimation_hint": "*********** ** *****",
+            "security_question": "秘密の質問",
+            "no_questions": "利用可能な質問がありません",
+            "select_question": "質問を選択してください",
+            "security_response": "秘密の質問の回答",
+            "security_response_hint": "秘密の質問の回答",
+            "validation": {
+                "password_validation": "6文字以上",
+                "password_dosnt_match": "パスワードが一致しません",
+                "required": "必須"
+            },
+            "error": {
+                "state_error": "問題が発生しました。しばらくしてから再度お試しください"
+            }
+        },
+        "validation": {
+            "email_validation": "無効なメールアドレスです",
+            "cpf_validation": "無効なCPFです",
+            "invalid_date": "無効な日付です"
+        },
+        "message": {
+            "select_institution": "機関を選択してください",
+            "provide_lattes": "Lattesリンクを入力してください",
+            "provide_expertise_area": "専門分野を入力してください",
+            "select_security_question": "秘密の質問を選択してください",
+            "password_dosnt_match": "パスワードが一致しません",
+            "loading_register": "ユーザーを登録しています。少々お待ちください"
+        }
+    }
+}

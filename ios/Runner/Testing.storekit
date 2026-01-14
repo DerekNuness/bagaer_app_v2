@@ -1,0 +1,131 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "1E565869",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "39.90",
+      "familyShareable" : false,
+      "internalID" : "95309D6E",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Registro de bagagens Bagaer",
+          "displayName" : "Registro de bagagens",
+          "locale" : "pt_BR"
+        }
+      ],
+      "productID" : "com.bagaer.trips.register_baggage_influencer",
+      "referenceName" : "Registro de bagagens - Influencer",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "59.90",
+      "familyShareable" : false,
+      "internalID" : "45662DD1",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Registro de bagagens Bagaer",
+          "displayName" : "Registro de bagagens",
+          "locale" : "pt_BR"
+        }
+      ],
+      "productID" : "com.bagaer.trips.register_baggage",
+      "referenceName" : "Registro de bagagens",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "pt_BR",
+    "_storefront" : "BRA",
+    "_storeKitErrors" : [
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 1,
+          "type" : "purchase"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "verification"
+        },
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : {
+          "index" : 1,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

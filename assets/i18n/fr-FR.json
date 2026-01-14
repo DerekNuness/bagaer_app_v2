@@ -1,0 +1,247 @@
+{
+    "home": {
+        "welcome": "Bienvenue ",
+        "search_text": "Que recherchez-vous ?",
+        "recently_posted": "Publiés récemment",
+        "top_rated": "Les mieux notés"
+    },
+    "language_dialog": {
+        "title": "Changer de langue",
+        "cancel_button": "Annuler",
+        "translate_button": "Traduire"
+    },
+    "search": {
+        "title": "Rechercher",
+        "input_text": "Que recherchez-vous ?",
+        "no_classes": "Aucune ressource trouvée...",
+        "search_error": "Une erreur est survenue, veuillez réessayer plus tard...",
+        "initial_message": "Vous cherchez quelque chose ?"
+    },
+    "register_class": {
+        "title": "Enregistrer une ressource",
+        "information_step": "Informations",
+        "category_step": "Catégorie",
+        "confirmation_step": "Confirmation",
+        "button_next_step": "Étape suivante",
+        "button_submmit": "Enregistrer la ressource",
+        "step1": {
+            "video_label": "Sélectionner une vidéo depuis la galerie",
+            "thumb_label": "Sélectionner une image de miniature",
+            "title_label": "Titre de la ressource",
+            "description_label": "Description",
+            "validation": {
+                "select_video": "Sélectionnez une vidéo",
+                "select_image": "Sélectionnez une image de miniature",
+                "provide_title": "Indiquez le titre",
+                "provide_description": "Indiquez la description"
+            }
+        },
+        "step2": {
+            "subjects": {
+                "title": "Cours",
+                "dialog_title": "À quels cours associez-vous votre leçon ?"
+            },
+            "skills": {
+                "title": "Compétences",
+                "dialog_title": "À quelles compétences associez-vous votre leçon ?"
+            },
+            "tool": {
+                "title": "Outil",
+                "dialog_title": "Quel outil utilisez-vous dans votre leçon ?"
+            },
+            "validation": {
+                "select_subjects": "Sélectionnez les cours",
+                "select_skills": "Sélectionnez les compétences.",
+                "select_tool": "Sélectionnez l’outil"
+            }
+        },
+        "step3": {
+            "error_title": "Titre",
+            "skills": "Compétences",
+            "subjects": "Cours",
+            "tool": "Outils"
+        },
+        "message": {
+            "success": "Félicitations, votre ressource a été envoyée. Dès qu’elle sera approuvée par les administrateurs, elle sera disponible pour tous les étudiants",
+            "loading": "Enregistrement de la ressource, veuillez patienter",
+            "error": "Une erreur s’est produite"
+        }
+    },
+    "profile": {
+        "title": "Profil",
+        "about_me": "À propos de moi",
+        "no_description": "Aucune description",
+        "my_classes": "Mes ressources",
+        "no_classes": "Vous n’avez encore publié aucune ressource",
+        "favorite": "Favoris",
+        "no_favorites": "Vous n’avez aucune ressource dans votre liste :("
+    },
+    "edit_account": {
+        "title": "Modifier le profil",
+        "new_image": "NOUVELLE IMAGE",
+        "button_cancel": "ANNULER",
+        "username_label": "Nom d’utilisateur",
+        "username_hint": "Nouveau nom d’utilisateur",
+        "description_label": "Description",
+        "description_hint": "Entrez ici votre nouvelle description",
+        "button_edit": "MODIFIER"
+    },
+    "config_screen": {
+        "title": "Paramètres",
+        "language": "Langue",
+        "logout": "Se déconnecter"
+    },
+    "author_profile": {
+        "title": "Auteur",
+        "about_me": "À propos de moi",
+        "classes": "Ressources"
+    },
+    "class_page": {
+        "skills": "Compétences",
+        "subjects": "Cours",
+        "message": {
+            "add_to_favorites": "Ajouté aux favoris !",
+            "removed_from_favorites": "Retiré des favoris"
+        }
+    },
+    "author_dialog": {
+        "wanna_know_more": "Vous voulez en savoir plus sur l’auteur ?",
+        "button_cancel": "Annuler",
+        "button_visit": "Visiter"
+    },
+    "logout_dialog": {
+        "title": "Voulez-vous vraiment vous déconnecter ?",
+        "subtitle": "Si vous vous déconnectez, vous ne pourrez revenir qu’après vous être reconnecté",
+        "button_cancel": "Annuler",
+        "button_logout": "Se déconnecter"
+    },
+    "onboarding": {
+        "skip": "PASSER",
+        "dont_show": "Ne pas afficher",
+        "button_advance": "SUIVANT",
+        "button_continue": "CONTINUER",
+        "step1": {
+            "title": "Débloquez votre potentiel avec REduc",
+            "description": "Découvrez, apprenez et partagez vos connaissances en un seul endroit ! 🚀"
+        },
+        "step2": {
+            "title": "Boostez votre parcours d’apprentissage",
+            "description": "Avec REduc, vous accédez à des contenus variés selon vos préférences !"
+        },
+        "step3": {
+            "title": "Étudiez à votre façon",
+            "description": "Ici, vous apprenez à votre rythme et comme vous le souhaitez !"
+        },
+        "step4": {
+            "title": "Publiez vos cours",
+            "description": "Si vous êtes enseignant, publiez vos cours avec l’application REduc"
+        },
+        "step5": {
+            "title": "Commencez votre parcours",
+            "description": "Explorez, apprenez et progressez avec REduc !"
+        }
+    },
+    "signin_signout": {
+        "title": "Connectez-vous maintenant",
+        "subtitle": "Connectez-vous à votre compte ou créez-en un dès maintenant et commencez à apprendre !",
+        "button_signin": "SE CONNECTER",
+        "button_signup": "S’INSCRIRE"
+    },
+    "signin_page": {
+        "title": "Connexion",
+        "subtitle": "Connectez-vous pour profiter de tout le contenu disponible sur REduc !",
+        "email_label": "Email",
+        "email_hint": "contact@exemple.com",
+        "password_label": "Mot de passe",
+        "password_hint": "***********",
+        "remember_me": "Se souvenir de moi !",
+        "button_submmit": "SE CONNECTER",
+        "signup_text": "Vous n’avez pas encore de compte ?",
+        "button_signup": "Inscrivez-vous",
+        "validation": {
+            "no_email": "Saisissez votre email",
+            "invalid_email": "Email invalide",
+            "no_password": "Saisissez votre mot de passe",
+            "invalid_password": "Le mot de passe doit contenir au moins 6 caractères"
+        },
+        "message": {
+            "loading_auth": "Authentification du compte, presque terminé"
+        }
+    },
+    "signup_page": {
+        "title": "Inscription",
+        "button_back": "Retour",
+        "button_submmit": "Terminer",
+        "button_next": "Suivant",
+        "personal_info": {
+            "title": "Personnelles",
+            "teacher": "Enseignant",
+            "student": "Étudiant",
+            "username": "Nom d’utilisateur",
+            "username_hint": "Nom d’utilisateur",
+            "name": "Prénom",
+            "name_hint": "Prénom",
+            "surname": "Nom",
+            "surname_hint": "Nom",
+            "email": "Email",
+            "email_hint": "exemple@exemple.com",
+            "cpf": "CPF",
+            "cpf_hint": "###########",
+            "birth_date": "Date de naissance",
+            "birth_date_hint": "jj/mm/aaaa",
+            "validation": {
+                "required": "Obligatoire"
+            }
+        },
+        "institutional_info": {
+            "title": "Institutionnelles",
+            "institution": "Institution",
+            "no_institution": "Aucune institution trouvée",
+            "select_institution": "Sélectionnez l’institution",
+            "lattes_link": "Lien Lattes",
+            "lattes_link_hint": "Lien Lattes",
+            "expertise_area": "Domaine d’expertise",
+            "expertise_area_hint": "Domaine d’expertise",
+            "description": "Description",
+            "description_hint": "Description",
+            "validation": {
+                "required": "Obligatoire"
+            }
+        },
+        "security_info": {
+            "title": "Sécurité",
+            "password": "Mot de passe",
+            "password_hint": "Mot de passe",
+            "obscure_password_hint": "*****",
+            "password_confimation": "Confirmation du mot de passe",
+            "password_confimation_hint": "Confirmation du mot de passe",
+            "obscure_password_confimation_hint": "*********** ** *****",
+            "security_question": "Question de sécurité",
+            "no_questions": "Aucune question disponible",
+            "select_question": "Sélectionnez la question",
+            "security_response": "Réponse de sécurité",
+            "security_response_hint": "Réponse de sécurité",
+            "validation": {
+                "password_validation": "Minimum 6 caractères",
+                "password_dosnt_match": "Les mots de passe ne correspondent pas",
+                "required": "Obligatoire"
+            },
+            "error": {
+                "state_error": "Une erreur est survenue, veuillez réessayer plus tard"
+            }
+        },
+        "validation": {
+            "email_validation": "Email invalide",
+            "cpf_validation": "CPF invalide",
+            "invalid_date": "Date invalide"
+        },
+        "message": {
+            "select_institution": "Sélectionnez l’institution",
+            "provide_lattes": "Indiquez le lien Lattes",
+            "provide_expertise_area": "Indiquez le domaine d’expertise",
+            "select_security_question": "Sélectionnez la question de sécurité",
+            "password_dosnt_match": "Les mots de passe ne correspondent pas",
+            "loading_register": "Inscription de l’utilisateur, veuillez patienter"
+        }
+    }
+}

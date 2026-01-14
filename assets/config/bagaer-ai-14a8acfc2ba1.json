@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "api_key": "14a8acfc2ba1aa522021911a5f0643fbe4da36fc",
+  "project_id": "bagaer-ai",
+  "private_key_id": "14a8acfc2ba1aa522021911a5f0643fbe4da36fc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqvja/v0t2IWjD\n6PdNcUdWqAgCUWhaIpHfacy6FVh0Nit5TgTeUrBbPserLPyvR2/4o2JX51SYt5e0\nCdc/zE4iEmm3L83QOpVpnzAvr4DGyLLMOkCRPzR4IjPvgSqtMk3K+X/gE5DJ+ZnE\nMW1DBWf6JCwPZEbO/gYNDGKMlk/FPvssNOaRh8R/ShwHkqLiVbukBwAq9OjztIvE\n8NxN1pgDzkRIHOcVN9SXxX/UPyW0Jby3TeS8fj9VY3ZeRTmrUAKvth87I30vI9Hh\nhyX4kfyjZoEAHrDgs9duhsVB6oryKrn36WaX672rv5ZGAOBizcEEhepmMobeqYVM\n8rEoZXldAgMBAAECggEAQkn/L4qxXXezGPyFpwdnzvkFwwCgJv5s6/RDi6tl4Bh3\n4Gyt7zLjTUmec5LPt61gh4PHVqF1cqU0vK1laFuFqizD5l8k5McZ4xvutVTKBmM9\nJ5UmJD4JvOpqh336d6ukED21q+VsvT2uuUEHTpH2wGLyyDcCVrLA3qgEStjAt68N\nrMmUR9C1SNo1qX2kkd9CrVgNYw5TtuNAiA/13o0kQvhfYFPJZPzzbbmQRvSpvLnF\n6o6OvEZQWanSdgE9wNWAbFBBp+tX8BmV0Ge7CNugG2sNRGfqeAprTtl1tuWyzrsz\nn3+Lbcn47c/dO38Dr/YL8dnPbIQvd4uI+jU1Y33BcQKBgQDVg8/E/10FUteMk2cA\npHLujrzYXjc1rmk4w/TYIgpzWeTdbacGI3Z/EgVSjMvWo9a760Hogl74ZY6ThfSU\nlDVI+1ZV/A8Hz6zk+z5NMpdIwUTyKP4m59o2P/3NNxqxnjq+merBRDo/2V4c8ynA\ne7j/25W3QypgyNyTfh7Ozk1vYwKBgQDMt6fOh+9LIYGBnMjuguiCqeNNKAUl4H2E\nEdedeu32DwBbssl9sRkGNmCItgjvBkrfG8STwxs/DIt6P9QrNO8BpRL6du4lfd/n\n7eplleZUMJPY+j/SIdngrQ7wjZMaCbR5ymIu3ytTpZ68nr2Jb52hKn187FesbS7b\nId8yeSGwPwKBgGi6uOT2JRiBY/0uKC3mfAGLvhGbVRVdsXsIk0aYm+uswlfiezTF\nnFAD9Nxi93EW+DNA2BlGKXNJzT+LS0a9080yi0yt0GmSckn2+r4+/HnRYxItDUzk\nGOLXTJSmXM+Wv1XShZW6859x7XnhxC8IANxvRuaXaWgD3j3ydQYXp1/lAoGAWENW\ntlUldt8bVyah+zO1y6AzwDBhB9OiSi7nJ564uj39iYusE+UnROZs+ISDlYrA/TCb\nsJmORcDC4hJjB73qzmq9o/9i7gc3YmfRh7r5c5L+K665lX/C0HvM1So1IiTNCzWW\n316Y75eYuPo3/emBrNsE/7dmlZD9gr033isbu0ECgYEAq/0baepNX2NOBP0clzHb\nPq6zhcqOhqox1p5ML/EokgaC2ojaRhT6jdMn96gfPlktYc0Oa96u6mgx+SxGhosJ\nWok3B958u98/2GltB30tPfWvoEgsp/cAvXvra8sE5zgqosGbDvJa5QuUJ7Ahh8OZ\ny/RGcX9oIfQcy0akX45fn1g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bagaer-google-vision-ai@bagaer-ai.iam.gserviceaccount.com",
+  "client_id": "111679931787898433213",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bagaer-google-vision-ai%40bagaer-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

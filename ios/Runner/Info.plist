@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.bagaer.background-refresh</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Bagaer</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.268986294000-9bj2lugu9go1ds735qqbmpthn6c9i93m</string>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>O Bagaer precisa acessar o Bluetooth para detectar e parear dispositivos de rastreamento da bagagem via Bluetooth.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartVmService._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>O Bagaer precisa acessar a câmera para registrar vídeos e fotos da bagagem, garantindo segurança e autenticidade do processo.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Permite depuração em rede local para desenvolvimento e testes com Flutter.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>O Bagaer precisa acessar sua localização para melhorar a precisão no rastreamento da bagagem durante todo o tempo de uso.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>O Bagaer precisa acessar sua localização mesmo em segundo plano para manter o rastreamento contínuo da bagagem.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>O Bagaer precisa acessar sua localização atual para garantir a precisão dos dados relacionados à sua bagagem.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>O Bagaer precisa acessar o microfone para gravar vídeos com áudio da sua bagagem, garantindo segurança e autenticidade do processo.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>O Bagaer precisa acessar sua galeria para permitir o envio de fotos da bagagem armazenadas no dispositivo.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
