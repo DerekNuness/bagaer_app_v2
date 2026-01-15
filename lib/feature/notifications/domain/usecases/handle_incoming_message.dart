@@ -8,6 +8,7 @@ class HandleIncomingMessageUseCase {
   Future<bool> call(PushNotification notification) async {
     // Exemplo simples: se existir campo `show_alert` no data e for '1', mostra.
     final data = notification.data ?? {};
+    print("data no HandleIncomingMessageUseCase: $data");
     if (data['show_alert'] == '1' || data['show_alert'] == 1) return true;
 
     // Caso o payload contenha rota, decidimos navegar ao invés de exibir alerta.

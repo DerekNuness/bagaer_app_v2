@@ -7,34 +7,34 @@ import 'package:bagaer/feature/notifications/presentation/services/local_notific
 @pragma('vm:entry-point')
 Future<void> firebaseBackgroundHandler(RemoteMessage message) async {
   try {
-    // Minimal log: entry and message identifier
     print('[firebaseBackgroundHandler] start messageId=${message.messageId}');
 
-    // Converta a mensagem para o model de domínio
+    // Se existir message.notification, o Android já exibiu a notificação automaticamente.
+    // Nós retornamos aqui para evitar duplicidade.
+    if (message.notification != null) {
+      print('[firebaseBackgroundHandler] Notificação exibida pelo sistema (Notification Message).');
+      return; 
+    }
+
+    // O código abaixo só deve rodar se for uma "Data Message" (sem o campo 'notification')
+    
     final model = NotificationModel.fromRemoteMessage({
       'messageId': message.messageId,
-      'notification': message.notification == null
-          ? null
-          : {
-              'title': message.notification?.title,
-              'body': message.notification?.body,
-            },
+      'notification': null, // Já sabemos que é null aqui
       'data': message.data,
       'sentTime': message.sentTime?.toIso8601String(),
     });
 
     print("Essa é o data: ${model.data}");
 
-    // Cria o plugin local de notificações diretamente — evita inicializar todo o DI em isolate
     final local = await LocalNotificationService.create();
 
-    // Log antes de mostrar a notificação (útil para confirmar ação no isolate)
-    print('[firebaseBackgroundHandler] showing notification id=${model.id ?? 'generated'}');
+    print('[firebaseBackgroundHandler] showing local notification for DATA message');
 
     await local.showNotification(
       id: model.id ?? DateTime.now().millisecondsSinceEpoch.toString(),
-      title: model.title,
-      body: model.body,
+      title: model.title ?? message.data['title'] ?? 'Nova notificação', // Fallback para dados
+      body: model.body ?? message.data['body'] ?? '',
       data: model.data,
     );
   } catch (e, st) {

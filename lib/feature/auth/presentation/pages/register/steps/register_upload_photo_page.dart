@@ -101,17 +101,27 @@ class _RegisterUploadPhotoPageState extends State<RegisterUploadPhotoPage> {
                 onTakePhoto: () async {
                   final bloc = context.read<MediaCaptureBloc>();
 
+                  final responseFuture = bloc.stream.firstWhere(
+                    (s) => s is MediaReady || s is MediaCaptureError,
+                  );
+
                   bloc.add(CaptureMediaRequested(MediaKind.photo, false));
 
-                  // espera o primeiro state que tiver sucesso (ou null se cancelar/erro)
-                  final state = await bloc.stream.firstWhere(
-                      (s) => s is MediaReady || s is MediaCaptureError);
+                  try {
+                    final state = await responseFuture;
 
-                  if (state is MediaReady) {
-                    final path = state.media.originalPath;
-                    final croppedPath = await cropSquare(path);
-                    return croppedPath;
+                    if (state is MediaReady) {
+                      final path = state.media.originalPath;
+
+                      if (!context.mounted) return null; 
+                      
+                      final croppedPath = await cropSquare(path);
+                      return croppedPath;
+                    }
+                  } catch (e) {
+                    debugPrint("Erro ou cancelamento na captura: $e");
                   }
+
                   return null;
                 },
                 onSelected: (value) {

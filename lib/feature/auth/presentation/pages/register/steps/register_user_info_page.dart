@@ -202,8 +202,7 @@ class _RegisterUserInfoPageState extends State<RegisterUserInfoPage> {
                                   _selectedCountry = country;
                                 });
 
-                                print(
-                                    "Esse é o pais de residência: ${_selectedCountry.countryName} ID: ${_selectedCountry.id}");
+                                print("Esse é o pais de residência: ${_selectedCountry.countryName} ID: ${_selectedCountry.id}");
                               },
                               dropdownHeight: 320.w,
                               dropdownWidth: 330.w,

@@ -58,6 +58,9 @@ class DocumentInputWidget extends StatelessWidget {
               focusNode: focusNode,
               autofocus: autoFocus,
               controller: textController,
+              maxLines: null,
+              minLines: null,
+              expands: true,
               keyboardType: TextInputType.text,
               style: TextStyle(
                 fontSize: 18.sp,

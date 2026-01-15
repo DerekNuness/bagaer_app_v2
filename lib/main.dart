@@ -39,8 +39,10 @@ void main() async {
   // WARM-UP: aguarda a criação assíncrona do LocalNotificationService
   try {
     print('[main] warming up LocalNotificationService...');
-    await di.sl.getAsync<LocalNotificationService>();
+    final localService = await di.sl.getAsync<LocalNotificationService>();
     print('[main] LocalNotificationService ready');
+    await localService.createNotificationChannel(); 
+    print('[main] LocalNotificationService ready and channel created');
     // await di.sl.getAsync<NotificationBloc>();
     // print('[main] NotificationBloc ready');
   } catch (e, st) {

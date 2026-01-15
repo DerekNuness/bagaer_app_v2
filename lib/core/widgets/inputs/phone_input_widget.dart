@@ -67,6 +67,9 @@ class PhoneInputWidget extends StatelessWidget {
               autofocus: autoFocus,
               controller: textController,
               keyboardType: TextInputType.number,
+              maxLines: null,
+              minLines: null,
+              expands: true,
               inputFormatters: [
                 FilteringTextInputFormatter.digitsOnly,
               ],
@@ -77,6 +80,11 @@ class PhoneInputWidget extends StatelessWidget {
               ),
               decoration: InputDecoration(
                 hintText: '(11) 23456-7890',
+                hintStyle: TextStyle(
+                  fontSize: 18.sp,
+                  fontWeight: FontWeight.w400,
+                  color: AppColors.darkTextColor.withOpacity(0.5),
+                ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.horizontal(right: Radius.circular(8.r), left: Radius.zero),
                   borderSide:  BorderSide(color: AppColors.primary),

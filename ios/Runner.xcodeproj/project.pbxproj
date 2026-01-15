@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0786A5422E3D436300B3D43B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0786A5412E3D436300B3D43B /* GoogleService-Info.plist */; };
 		0786F93C2E465FFC00E50599 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0786F93B2E465FFC00E50599 /* StoreKit.framework */; };
+		07F8708D2F1957C600A76617 /* teste_audio_personalizado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07F8708C2F1957C600A76617 /* teste_audio_personalizado.mp3 */; };
+		07F8708F2F19689F00A76617 /* bagaer_notification_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07F8708E2F19689F00A76617 /* bagaer_notification_sound.mp3 */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
@@ -47,6 +49,8 @@
 		0786A5412E3D436300B3D43B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0786F93B2E465FFC00E50599 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		079F77772E639F9700CEC172 /* Testing.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Testing.storekit; path = Runner/Testing.storekit; sourceTree = "<group>"; };
+		07F8708C2F1957C600A76617 /* teste_audio_personalizado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teste_audio_personalizado.mp3; sourceTree = "<group>"; };
+		07F8708E2F19689F00A76617 /* bagaer_notification_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bagaer_notification_sound.mp3; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		27C0CEE6DB2CDC1890D04B6D /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				A4F9146CB851846764065B0E /* Pods */,
 				50C26E766B93920C9D473B9F /* Frameworks */,
 				079F77772E639F9700CEC172 /* Testing.storekit */,
+				07F8708E2F19689F00A76617 /* bagaer_notification_sound.mp3 */,
+				07F8708C2F1957C600A76617 /* teste_audio_personalizado.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -272,7 +278,9 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				0786A5422E3D436300B3D43B /* GoogleService-Info.plist in Resources */,
+				07F8708F2F19689F00A76617 /* bagaer_notification_sound.mp3 in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
+				07F8708D2F1957C600A76617 /* teste_audio_personalizado.mp3 in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,9 +312,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,9 +392,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

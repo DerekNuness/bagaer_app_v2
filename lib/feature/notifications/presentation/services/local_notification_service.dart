@@ -25,6 +25,19 @@ class LocalNotificationService {
     return LocalNotificationService._(plugin);
   }
 
+  // Adicione este método para criar o canal proativamente
+  Future<void> createNotificationChannel() async {
+    const androidDetails = AndroidNotificationChannel(
+      'default_channel_id',
+      'Canal padrão de notificações', // Nome visível ao usuário nas configs
+      description: 'Usado para notificações importantes do app',
+      importance: Importance.high,
+    );
+    
+    // Isso força a criação do canal no Android system settings
+    await _plugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()?.createNotificationChannel(androidDetails);
+  }
+
   Future<void> showNotification({
     required String id,
     String? title,
@@ -47,7 +60,7 @@ class LocalNotificationService {
       title,
       body,
       const NotificationDetails(android: androidDetails, iOS: iosDetails),
-      payload: data != null ? data.toString() : null,
+      payload: data?.toString(),
     );
   }
 }
