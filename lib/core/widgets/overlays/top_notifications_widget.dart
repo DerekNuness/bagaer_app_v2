@@ -100,7 +100,6 @@ class _TopNotificationState extends State<_TopNotification> with SingleTickerPro
               child: Container(
                 padding: EdgeInsets.all(16.w),
                 decoration: BoxDecoration(
-                  // color: Colors.white.withOpacity(0.15),
                   color: widget.bgColor.withAlpha(166),
                   borderRadius: BorderRadius.circular(16.r),
                   border: Border.all(

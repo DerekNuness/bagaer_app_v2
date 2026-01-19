@@ -142,7 +142,19 @@ class _LoginPageState extends State<LoginPage> {
             }
           },
           child: Scaffold(
-            appBar: BagaerAppBar(),
+            appBar: BagaerAppBar(
+              titleWidget: Hero(
+                tag: 'bagaer-logo',
+                child: SizedBox(
+                  width: 150.r,
+                  height: 44.r,
+                  child: Image.asset(
+                    LogoColor.blue.asset,
+                    fit: BoxFit.contain,
+                  ),
+                )
+              ),
+            ),
             resizeToAvoidBottomInset: true,
             body: SafeArea(
               child: Padding(

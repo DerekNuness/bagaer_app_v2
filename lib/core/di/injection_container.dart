@@ -152,30 +152,34 @@ Future<void> init() async {
     sl.registerLazySingleton(() => InitializeNotificationsUseCase(sl()));
   }
 
-  // Local notification service (async factory)
+ // 1. Local Notification Service (CORREÇÃO)
+  // Mude de registerFactoryAsync para criar manualmente e registrar Singleton.
+  // Isso garante que a instância já exista quando o BLoC pedir.
   if (!sl.isRegistered<LocalNotificationService>()) {
-    // Note: creating synchronously here isn't possible; register factory that creates when needed
-    sl.registerFactoryAsync<LocalNotificationService>(() async => await LocalNotificationService.create());
+    // Cria a instância real aguardando a inicialização
+    final localServiceInstance = await LocalNotificationService.create();
+    
+    // Registra a instância pronta (Síncrona)
+    sl.registerSingleton<LocalNotificationService>(localServiceInstance);
   }
 
-  // Notifications usecases without deps
+  // 2. UseCases (Mantém igual)
   if (!sl.isRegistered<HandleIncomingMessageUseCase>()) {
     sl.registerLazySingleton(() => HandleIncomingMessageUseCase());
   }
 
-  // Notification BLoC (depends on async LocalNotificationService)
+  // 3. Notification BLoC (CORREÇÃO)
+  // Agora podemos usar registerFactory NORMAL (Síncrono)
   if (!sl.isRegistered<NotificationBloc>()) {
-    sl.registerFactoryAsync<NotificationBloc>(() async {
-      final local = await sl.getAsync<LocalNotificationService>();
-      return NotificationBloc(
-        initialize: sl(),
-        requestPermission: sl(),
-        getDeviceToken: sl(),
-        repository: sl(),
-        localNotificationService: local,
-        handleIncomingMessage: sl(),
-      );
-    });
+    sl.registerFactory<NotificationBloc>(() => NotificationBloc(
+      initialize: sl(),
+      requestPermission: sl(),
+      getDeviceToken: sl(),
+      repository: sl(),
+      // O GetIt pega a instância que registramos no passo 1 instantaneamente
+      localNotificationService: sl(), 
+      handleIncomingMessage: sl(),
+    ));
   }
 
 

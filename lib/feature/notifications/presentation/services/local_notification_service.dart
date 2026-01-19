@@ -51,9 +51,12 @@ class LocalNotificationService {
       importance: Importance.high,
       priority: Priority.high,
       icon: 'ic_stat_notify',
+      sound: RawResourceAndroidNotificationSound('tim_tom'),
     );
 
-    const iosDetails = DarwinNotificationDetails();
+    const iosDetails = DarwinNotificationDetails(
+      sound: 'bagaer_notification_sound.mp3',
+    );
 
     await _plugin.show(
       id.hashCode,

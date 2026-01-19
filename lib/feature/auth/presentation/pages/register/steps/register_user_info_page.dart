@@ -149,6 +149,17 @@ class _RegisterUserInfoPageState extends State<RegisterUserInfoPage> {
           child: Scaffold(
               appBar: BagaerAppBar(
                 showBackButton: false,
+                titleWidget: Hero(
+                  tag: 'bagaer-logo',
+                  child: SizedBox(
+                    width: 150.r,
+                    height: 44.r,
+                    child: Image.asset(
+                      LogoColor.blue.asset,
+                      fit: BoxFit.contain,
+                    ),
+                  )
+                ),
               ),
               body: BlocBuilder<RegisterBloc, RegisterState>(
                 builder: (context, state) {

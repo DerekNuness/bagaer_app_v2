@@ -20,13 +20,12 @@ class NotificationRepositoryImpl implements NotificationRepository {
       await remote.initialize();
       return Right(unit);
     } catch (e) {
-      return Left(UnknownFailure(e.toString()));
+      return Left(UnknownFailure("Unkown failure"));
     }
   }
 
   @override
-  Stream<PushNotification> get onMessageStream =>
-      remote.onMessage.map((m) => NotificationModel.fromMap(m.toMap()));
+  Stream<PushNotification> get onMessageStream => remote.onMessage.map((m) => NotificationModel.fromMap(m.toMap()));
 
   @override
   Future<Either<Failure, String?>> getDeviceToken() async {

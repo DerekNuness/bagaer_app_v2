@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 class AppColors {
   static const Color primary = Color(0xFF284686);
 
+  static const Color white = Color(0xFFFFFFFF);
+
+  static const Color transparent = Colors.transparent;
+
   static const Color lightBlue = Color(0xFF4FB0FB);
 
   //Background
@@ -38,4 +42,15 @@ class AppColors {
   static const Color orangePasswordStrength = Color(0xFFFB8C00);
   static const Color bluePasswordStrength = Color(0xFF1E88E5);
   static const Color redPasswordStrength = Color(0xFFFF134C);
+
+  // Home background
+  static const Color homeBackgroundColor = Color(0xFFE8E9EF);
+
+  // Gradient Blues
+  static const gradientOne = Color(0xFF284686);
+  static const gradientTwo = Color(0xFF3B7BC0);
+  static const gradientThree = Color(0xFF428CD3);
+  static const gradientFour = Color(0xFF489DE6);
+  static const gradientFive = Color(0xFF4FB0FB);
+
 }

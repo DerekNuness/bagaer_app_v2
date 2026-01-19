@@ -63,6 +63,17 @@ class _AccountCreatedPageState extends State<AccountCreatedPage> with TickerProv
     return Scaffold(
       appBar: BagaerAppBar(
         showBackButton: false,
+        titleWidget: Hero(
+          tag: 'bagaer-logo',
+          child: SizedBox(
+            width: 150.r,
+            height: 44.r,
+            child: Image.asset(
+              LogoColor.blue.asset,
+              fit: BoxFit.contain,
+            ),
+          )
+        ),
       ),
       body: SafeArea(
         child: Padding(

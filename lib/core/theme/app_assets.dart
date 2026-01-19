@@ -30,4 +30,5 @@ class AppAssets {
 
   /// Icons
   static const String backButton = "assets/icons/back_button.svg";
+  static const String notificationIcon = "assets/icons/notification_icon.svg";
 }

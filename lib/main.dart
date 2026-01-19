@@ -39,7 +39,7 @@ void main() async {
   // WARM-UP: aguarda a criação assíncrona do LocalNotificationService
   try {
     print('[main] warming up LocalNotificationService...');
-    final localService = await di.sl.getAsync<LocalNotificationService>();
+    final localService = di.sl<LocalNotificationService>();
     print('[main] LocalNotificationService ready');
     await localService.createNotificationChannel(); 
     print('[main] LocalNotificationService ready and channel created');
@@ -56,8 +56,8 @@ void main() async {
   // obtenha o bloc via GetIt/BlocProvider e dispare InitializeNotificationsEvent ou RequestPermissionEvent.
   try {
     print('[main] obtaining NotificationBloc and dispatching InitializeNotificationsEvent...');
-    final bloc = await di.sl.getAsync<NotificationBloc>();
-    bloc.add(InitializeNotificationsEvent());
+    // final bloc = await di.sl.getAsync<NotificationBloc>();
+    // bloc.add(InitializeNotificationsEvent());
     print('[main] InitializeNotificationsEvent dispatched');
   } catch (e, st) {
     print('[main] NotificationBloc initialization failed: $e');

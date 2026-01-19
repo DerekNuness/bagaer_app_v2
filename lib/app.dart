@@ -9,6 +9,7 @@ import 'package:bagaer/feature/app_version/presentation/bloc/app_version_bloc.da
 import 'package:bagaer/feature/auth/presentation/bloc/auth_bloc/auth_bloc.dart';
 import 'package:bagaer/feature/language/presentation/bloc/language/bloc/language_bloc.dart';
 import 'package:bagaer/feature/notifications/presentation/bloc/notification_bloc.dart';
+import 'package:bagaer/feature/notifications/presentation/bloc/notification_event.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -23,7 +24,13 @@ class App extends StatelessWidget {
         BlocProvider(create: (_) => sl<LanguageBloc>()),
         BlocProvider(create: (_) => sl<AppVersionBloc>()),
         BlocProvider(create: (_) => sl<AuthBloc>()),
-        // BlocProvider(create: (_) => sl<NotificationBloc>()),
+        BlocProvider<NotificationBloc>(
+          // 1. ADICIONE ISTO: Desativa o lazy loading
+          lazy: false, 
+          
+          // 2. Garanta que o evento de inicialização é chamado aqui
+          create: (context) => sl<NotificationBloc>()..add(InitializeNotificationsEvent()),
+        ),
       ],
       child: BlocBuilder<LanguageBloc, LanguageState>(
         builder: (context, state) {

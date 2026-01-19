@@ -78,7 +78,19 @@ class _RegisterCodePageState extends State<RegisterCodePage>
       child: GestureDetector(
         onTap: () => FocusScope.of(context).unfocus(),
         child: Scaffold(
-          appBar: BagaerAppBar(),
+          appBar: BagaerAppBar(
+            titleWidget: Hero(
+              tag: 'bagaer-logo',
+              child: SizedBox(
+                width: 150.r,
+                height: 44.r,
+                child: Image.asset(
+                  LogoColor.blue.asset,
+                  fit: BoxFit.contain,
+                ),
+              )
+            ),
+          ),
           body: SafeArea(
               child: Padding(
             padding: EdgeInsets.fromLTRB(21.w, 40.h, 21.w, 27.h),

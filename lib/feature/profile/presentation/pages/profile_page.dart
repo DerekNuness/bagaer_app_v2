@@ -1,4 +1,3 @@
-import 'package:bagaer/core/di/injection_container.dart';
 import 'package:bagaer/feature/auth/domain/entities/auth_session.dart';
 import 'package:bagaer/feature/auth/presentation/bloc/auth_bloc/auth_bloc.dart';
 import 'package:bagaer/feature/auth/presentation/bloc/login_bloc/login_bloc.dart';
@@ -35,7 +34,7 @@ class _ProfilePageState extends State<ProfilePage> {
         }
       },
       child: Scaffold(
-        appBar: AppBar(),
+        // appBar: BagaerAppBar(),
         body: Column(
           children: [
             SizedBox(

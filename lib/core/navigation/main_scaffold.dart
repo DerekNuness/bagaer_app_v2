@@ -5,11 +5,13 @@ import 'package:bagaer/core/navigation/wrappers/home_page_wrapper.dart';
 import 'package:bagaer/core/navigation/wrappers/incidents_page_wrapper.dart';
 import 'package:bagaer/core/navigation/wrappers/profile_page_wrapper.dart';
 import 'package:bagaer/core/theme/app_colors.dart';
+import 'package:bagaer/core/widgets/navbar/custom_nav_bar_widget.dart';
 import 'package:bagaer/feature/auth/presentation/bloc/auth_bloc/auth_bloc.dart';
 import 'package:bagaer/feature/auth/presentation/pages/auth_decision/auth_decision_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
 
 class MainScaffold extends StatefulWidget {
   const MainScaffold({super.key});
@@ -20,14 +22,10 @@ class MainScaffold extends StatefulWidget {
 
 class _MainScaffoldState extends State<MainScaffold> {
   int _index = 0;
-  final GlobalKey<NavigatorState> homePageNavigationKey =
-      GlobalKey<NavigatorState>();
-  final GlobalKey<NavigatorState> baggagePageNavigationKey =
-      GlobalKey<NavigatorState>();
-  final GlobalKey<NavigatorState> incidentsPageNavigationKey =
-      GlobalKey<NavigatorState>();
-  final GlobalKey<NavigatorState> profilePageNavigationKey =
-      GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> homePageNavigationKey = GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> baggagePageNavigationKey = GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> incidentsPageNavigationKey = GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> profilePageNavigationKey = GlobalKey<NavigatorState>();
 
   @override
   void initState() {
@@ -52,6 +50,12 @@ class _MainScaffoldState extends State<MainScaffold> {
     ];
   }
 
+  void _onItemTapped(int index) {
+    setState(() {
+      _index = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return BlocListener<AuthBloc, AuthState>(
@@ -65,46 +69,25 @@ class _MainScaffoldState extends State<MainScaffold> {
         }
       },
       child: Scaffold(
+        backgroundColor: AppColors.errorRed,
+        extendBody: true,
         body: IndexedStack(
           index: _index,
           children: _setNavigators(),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          currentIndex: _index,
-          elevation: 0,
-          onTap: (i) => setState(() => _index = i),
-          backgroundColor: Colors.white,
-          unselectedItemColor: Colors.grey,
-          unselectedLabelStyle: TextStyle(
-            fontSize: 14.sp,
-            color: AppColors.darkTextColor,
-          ),
-          selectedLabelStyle: TextStyle(
-            fontSize: 15.sp,
-            color: AppColors.primary,
-          ),
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home_outlined),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.list),
-              label: 'Bagagens',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.bar_chart_rounded),
-              label: 'Ocorrências',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline),
-              label: 'Perfil',
-            ),
-          ],
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Color(0xFF2E4482), // Cor azul do seu print
+          elevation: 8,
+          onPressed: () {},
+          child: Icon(Icons.add, size: 35.sp, color: Colors.white),
         ),
-        
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        bottomNavigationBar: BagaerNavBar(
+          currentIndex: _index, 
+          onTap: _onItemTapped
+        )
       ),
     );
   }
+
 }
